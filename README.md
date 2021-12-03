@@ -6,9 +6,16 @@ A simple table-of-content extension of Craft app. Since the official API of Craf
 
 ## Install
 
-Two ways to install this extension:
-- just [download](https://raw.githubusercontent.com/itshxu/craft-x-table-of-content/master/dist/Table%20of%20Content.craftx) the `.craftx` file
+First step is to get get this extension
+
+- just [download](https://raw.githubusercontent.com/itshxu/craft-x-table-of-content/master/dist/Table%20of%20Content.craftx) the `.craftx` file.
 - or clone this repo and build locally.
+
+Second step is to install this extension:
+
+> At the top left of the app, click your avatar, select Preferences, click Advanced. Under Craft eXtensions, click the dropdown, and select Enabled.
+
+> At the bottom of the right side bar, the eXtensions logo is now visible. Click the + sign, select the file you downloaded from the previous step, then click open. 
 
 ## Feedback
 
