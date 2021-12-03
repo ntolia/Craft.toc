@@ -1,0 +1,10 @@
+{
+  "id": "hxu.table-of-content",
+  "name": "Table of Content",
+  "fileName": "Table of Content",
+  "author" : "hxu",
+  "author-email" : "its.hxu@gmail.com",
+  "description" : "Auto generate a table of content for any page",
+  "api": "0.1.0",
+  "main": "index.html"
+}
