@@ -3,44 +3,6 @@ body {
   background-color: white;
 }
 
-body.dark {
-  background-color: #222222;
-}
-
-.btn {
-  background-color: #dfdfdf;
-  border: none;
-  color: #484848;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.btn.dark {
-  background-color: #464646;
-  color: #cfcfcf;
-}
-
-.btn:hover {
-  background-color: #c6c6c6;
-}
-
-.btn.dark:hover {
-  background-color: #3c3c3c;
-}
-
-.btn:active {
-  background-color: #b8b8b8;
-}
-
-.btn.dark:active {
-  background-color: #303030;
-}
-
 h1 {
   line-height: 16pt;
   font-size: 11pt;
@@ -57,7 +19,7 @@ ul {
 li {
   cursor: pointer;
   margin: .5rem;
-  padding: .3rem;
+  padding: .3rem .3rem .4rem;
   font-size: 11pt;
   color: rgb(15, 83, 144);
   text-decoration: underline;
@@ -75,4 +37,21 @@ li:hover {
   border-radius: .3rem;
   background-color: rgb(229, 243, 255);
   text-decoration: none;
+}
+
+body[data-theme="dark"] {
+  background-color: #222222;
+}
+
+body[data-theme="dark"] h1 {
+  color: #fff;
+}
+
+body[data-theme="dark"] li {
+  color: rgb(134, 205, 229);
+  text-decoration-color: rgb(70, 117, 115);
+}
+
+body[data-theme="dark"] li:hover {
+  background-color: rgb(40, 63, 71);
 }

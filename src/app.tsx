@@ -9,6 +9,7 @@ const App: React.FC<{}> = () => {
 
   React.useEffect(() => {
     generateTableOfContents();
+    initEnvListener();
   })
 
   async function generateTableOfContents() {
@@ -26,6 +27,12 @@ const App: React.FC<{}> = () => {
 
   async function clickBlock(block: CraftBlock) {
     await craft.editorApi.navigateToBlockId(block.id);
+  }
+
+  function initEnvListener() {
+    craft.env.setListener((env) => {
+      document.body.dataset.theme = env.colorScheme === "light" ? "" : "dark";
+    });
   }
 
   return (
